@@ -1,2 +1,3 @@
 # COM421Project1
  
+ My approach was to convert the information given into an easy to read and digestible format, retaining the overall structure of the original information. For the color scheme and styling, I attempted to mimic the IIT style, however with some key differences. Given more time, I would've preferred to optimize the CSS styling so that I could minimize class calls in the HTML program.

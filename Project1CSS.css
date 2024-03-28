@@ -1,0 +1,94 @@
+html {
+    background-color: rgb(58, 58, 58);
+    font-family: "Source Sans Pro",sans-serif;
+}
+
+body {
+    margin-left: 20px;
+    margin-right: 20px; 
+    color: white;
+
+    .bulletList {
+        font-size: 16px;
+    }
+
+    .nestedList {
+        font-size: small;
+    }
+
+    .l1 {
+        font-size: small;
+        margin-left: 22px;
+        margin-right: 22px;
+    }
+}
+
+.content {
+    margin-left: 200px;
+    padding-top: 80px;
+}
+
+.sidebar {
+    background-color: rgb(161, 161, 161);
+    margin-left: -180px;
+    position: absolute;
+    z-index: 101;
+    width: 160px;
+}
+
+p {
+    font-size: small;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.caption {
+        margin-left: 50px;
+}
+
+.weird {
+    font-weight: bold;
+    color:rgb(161, 161, 161);
+}
+
+img {
+    position:relative;
+    left: 50px;
+}
+
+.boldtxt {
+    font-weight: bold;
+}
+
+i {
+    font-style: italic;
+}
+
+
+/*Nav bar CSS*/
+nav {
+    /* CSS to style the nav bar*/
+    .TopNavBar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #980000; /* background color of the navigation bar */
+    }
+
+    .TopNavBar > li {
+        float: left; /*float left*/
+    }
+
+    .TopNavBar > li a { /*centering the text and coloring box*/
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none; 
+    }
+
+    .TopNavBar > li a:hover {
+        background-color: #600000; /* background color when hovering over a link */
+    }
+}
